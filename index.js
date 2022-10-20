@@ -37,7 +37,7 @@ app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
 app.get('/', function(req, res) {
-  res.status(200).send('Regulation DB');
+  res.status(200).send('Regulation DB 2022');
 });
 
 // There will be a test page available on the /test path of your server url
